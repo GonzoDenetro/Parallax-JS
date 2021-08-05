@@ -9,6 +9,9 @@
 html {
     font-size: 62.5%
 }
+section {
+    position: relative;
+}
 nav {
     width: 100%;
     position: absolute;
@@ -29,14 +32,15 @@ nav {
 }
 .main-title {
     position: absolute;
-    top: 30%;
+    top: 10%;
     left: 50%;
-    transform: translate(-50%, -30%);
+    transform: translate(-50%, -10%);
     font-size: 6rem;
     font-weight: 500;
 }
 .content-container {
     padding: 30px;
+    position: absolute;
     width: 100%;
     min-height: 100vh;
     z-index: 2;
